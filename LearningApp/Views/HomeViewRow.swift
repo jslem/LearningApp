@@ -38,8 +38,9 @@ struct HomeViewRow: View {
                     Text("\(title)")
                         .bold()
                     Text(description)
+                        .font(.caption)
                         .padding(.bottom, 20)
-                    
+                        
                     // Icons
                     HStack {
                         // Number of lessons/questions
